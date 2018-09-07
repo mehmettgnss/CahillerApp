@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_View">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/myList"
+            android:title="İlgi Alanlarım"
+            android:icon="@drawable/ic_favorite_white_24dp"/>
+
+        <item android:id="@+id/settings"
+            android:title="Ayarlar"
+            android:icon="@drawable/ic_settings_white_24dp"/>
+
+        <item android:id="@+id/exit"
+            android:title="Çıkış Yap"
+            android:icon="@drawable/ic_exit_white_24dp"/>
+
+    </group>
+
+</menu>

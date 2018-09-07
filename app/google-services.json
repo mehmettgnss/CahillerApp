@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "123081056830",
+    "firebase_url": "https://cahiller-4f23a.firebaseio.com",
+    "project_id": "cahiller-4f23a",
+    "storage_bucket": "cahiller-4f23a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123081056830:android:4bd677c8e64bfece",
+        "android_client_info": {
+          "package_name": "com.example.adige.cahillerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123081056830-aks4irs30od0ivj8t1kdrbvu8797vrpd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adige.cahillerapp",
+            "certificate_hash": "c6a6c97edda2ecb581fc80f7e2890d570b134fc4"
+          }
+        },
+        {
+          "client_id": "123081056830-vm7d7l39fd9e81o1hn6hg6i5p9q1n1fa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvwFPeMPfFfHVdDM4Mitw2AtgSdFyBRYg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123081056830-vm7d7l39fd9e81o1hn6hg6i5p9q1n1fa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

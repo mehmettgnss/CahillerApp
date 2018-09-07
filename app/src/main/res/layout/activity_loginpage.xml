@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user.loginpage"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="50dp"
+        android:background="@color/colorPrimary"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="CAHİLLER"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum mattis justo, a laoreet libero. Vivamus luctus eros at nisl luctus, eu egestas mauris aliquet. Integer vulputate magna vulputate cursus fringilla. Morbi tempus placerat ex. Nam molestie lacus vel scelerisque mattis. Pellentesque eu purus nibh. Phasellus id ultricies sapien."
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/signUpButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aramıza Katıl"
+                android:background="@drawable/signupbutton"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Kullanıcı Adı"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_username_black_24dp"
+            android:textColor="@android:color/black"
+            />
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Şifre"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:inputType="textPassword"
+            android:textColor="@android:color/black"
+            />
+        <Button
+            android:id="@+id/signInButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Girmeye Çabala"
+            android:drawableRight="@drawable/ic_sign_24dp"
+
+            android:background="@drawable/signinbutton"
+            android:layout_marginTop="15dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
