@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#fffc00</color>
+    <color name="colorPrimary">#34465d</color>
     <color name="colorPrimaryDark">@android:color/black</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorSnapcaht">#FFFC00</color>
+    <color name="colorFacebook">#3b5999</color>
+    <color name="colorTumblr">#34465d</color>
+    <color name="colorYoutube">#cd201f</color>
+    <color name="colorInstagram">#e4405f</color>
+    <color name="colorWechat">#09b83e</color>
+    <color name="colorWhatsapp">#25D366</color>
+    <color name="colorVK">#4c75a3</color>
+    <color name="colorYahoo">#410093</color>
 </resources>

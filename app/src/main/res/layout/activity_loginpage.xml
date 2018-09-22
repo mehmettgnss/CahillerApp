@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="50dp"
-        android:background="@color/colorPrimary"
+        android:background="@color/colorSnapcaht"
         >
 
         <TextView
@@ -36,14 +36,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="25dp">
 
             <Button
                 android:id="@+id/signUpButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Aramıza Katıl"
-                android:background="@drawable/signupbutton"/>
+                android:background="@drawable/signupbutton"
+                android:onClick="signUpClick"
+                android:text="Aramıza Katıl" />
 
 
         </LinearLayout>
@@ -82,7 +83,7 @@
             android:drawableRight="@drawable/ic_sign_24dp"
 
             android:background="@drawable/signinbutton"
-            android:layout_marginTop="15dp" />
+            android:layout_marginTop="50dp" />
 
 
     </LinearLayout>

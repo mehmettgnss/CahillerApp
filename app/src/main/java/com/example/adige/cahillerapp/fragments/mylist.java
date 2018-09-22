@@ -11,10 +11,15 @@ import android.view.ViewGroup;
 import com.example.adige.cahillerapp.R;
 
 public class mylist extends Fragment {
+    View view;
+    public  mylist(){
+
+    }
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_mylist,container,false);
+        view = inflater.inflate(R.layout.fragment_mylist,container,false);
+        return view;
     }
 }

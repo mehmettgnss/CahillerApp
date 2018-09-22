@@ -11,10 +11,15 @@ import android.support.v4.app.Fragment;
 import com.example.adige.cahillerapp.R;
 
 public class homepage extends Fragment{
+    View view;
+    public  homepage(){
+
+    }
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_home_page,container,false);
+        view = inflater.inflate(R.layout.fragment_home_page,container,false);
+        return view;
     }
 }

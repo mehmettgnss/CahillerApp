@@ -2,5 +2,20 @@
     <string name="app_name">CahillerApp</string>
     <string name="open">OPEN</string>
     <string name="close">CLOSE</string>
+    <string name="title_activity_registerpage">Üyelik</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email </string>
+    <string name="prompt_password">Şifre Oluştur</string>
+    <string name="prompt_repassword">Şifre Tekrar</string>
+    <string name="action_sign_in">İlerle</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Bu email adresi geçersiz</string>
+    <string name="error_invalid_password">Daha uzun bir şifre oluştur</string>
+    <string name="error_incorrect_password">Bu şifre doğru değil.</string>
+    <string name="error_repeat_password">Aynı şifre girilmelidir.</string>
+    <string name="error_field_required">Bu alan gereklidir</string>
+    <string name="permission_rationale">"E-posta için izinler gereklidir."</string>
+
 
 </resources>

@@ -5,11 +5,11 @@
 
     </item>
 
-    <item android:title="Listeler" android:id="@+id/category" android:icon="@drawable/ic_apps_black_24dp">
+    <item android:title="Kategoriler" android:id="@+id/category" android:icon="@drawable/ic_apps_black_24dp">
 
     </item>
 
-    <item android:title="Beğendiklerim" android:id="@+id/cloud" android:icon="@drawable/ic_cloud_black_24dp">
+    <item android:title="Videolar" android:id="@+id/cloud" android:icon="@drawable/ic_cloud_black_24dp">
 
     </item>
 

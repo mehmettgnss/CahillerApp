@@ -10,11 +10,16 @@ import android.view.ViewGroup;
 
 import com.example.adige.cahillerapp.R;
 
-public class cloud extends Fragment {
+public class videos extends Fragment {
+    View view;
+    public  videos(){
+
+    }
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_cloud,container,false);
+        view = inflater.inflate(R.layout.fragment_videos,container,false);
+        return view;
     }
 }
